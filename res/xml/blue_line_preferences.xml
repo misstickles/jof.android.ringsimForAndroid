@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory 
+        android:key="pref_category_blueline"
+        android:title="Blue Line Viewer Options">
+    
+    <ListPreference 
+        android:key="@string/pref_highlight_bell_1"
+        android:entries="@array/bell_numbers"
+        android:entryValues="@array/bell_numbers_values"
+        android:dialogTitle="Highlight Bell 1"
+        android:title="Highlight Bell 1"
+        android:summary="Select the first bell to highlight"
+        android:defaultValue="4" 
+        />
+    
+    <CheckBoxPreference 
+        android:key="@string/pref_show_bell_numbers"
+        android:title="Show Numbers"
+        android:summary="Show the bell numbers with the line"
+        android:defaultValue="true"
+        />
+
+    <CheckBoxPreference 
+        android:key="@string/pref_show_as_single_line"
+        android:title="Show as Single Line"
+        android:summary="Draw the line in one column"
+        />
+    
+    </PreferenceCategory>
+    
+</PreferenceScreen>

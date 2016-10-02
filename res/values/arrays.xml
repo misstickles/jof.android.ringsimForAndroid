@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array
+	    name="bell_numbers">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>0</item>
+		<item>E</item>
+		<item>T</item>
+		<item>A (13)</item>
+		<item>B (14)</item>
+		<item>C (15)</item>
+		<item>D (16)</item>
+		<item>F (17)</item>
+		<item>G (18)</item>
+		<item>H (19)</item>
+		<item>J (20)</item>
+		<item>K (21)</item>
+		<item>L (22)</item>
+		<item>M (23)</item>
+		<item>N (24)</item>
+		<item>P (25)</item>
+		<item>Q (26)</item>
+		<item>R (27)</item>
+		<item>S (28)</item>
+		<item>U (29)</item>
+		<item>V (30)</item>
+		<item>W (31)</item>
+		<item>X (32)</item>
+		<item>Y (33)</item>
+		<item>Z (34)</item>
+	</string-array>
+	<string-array
+	    name="bell_numbers_values">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>0</item>
+		<item>E</item>
+		<item>T</item>
+		<item>A</item>
+		<item>B</item>
+		<item>C</item>
+		<item>D</item>
+		<item>F</item>
+		<item>G</item>
+		<item>H</item>
+		<item>J</item>
+		<item>K</item>
+		<item>L</item>
+		<item>M</item>
+		<item>N</item>
+		<item>P</item>
+		<item>Q</item>
+		<item>R</item>
+		<item>S</item>
+		<item>U</item>
+		<item>V</item>
+		<item>W</item>
+		<item>X</item>
+		<item>Y</item>
+		<item>Z</item>
+	</string-array>    
+</resources>

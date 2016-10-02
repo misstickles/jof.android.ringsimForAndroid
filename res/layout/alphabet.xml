@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:fillViewport="true"
+	android:background="#333">
+	    
+    <LinearLayout android:layout_width="23dip"
+ 	   android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:scrollbars="none"
+	    android:gravity="center_horizontal">
+            
+	    <TextView android:id="@+id/a" android:text="A" android:tag="A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" />
+	    <TextView android:id="@+id/b" android:text="B" android:tag="B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/c" android:text="C" android:tag="C" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/d" android:text="D" android:tag="D" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/e" android:text="E" android:tag="E" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/f" android:text="F" android:tag="F" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/G" android:text="G" android:tag="G" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/h" android:text="H" android:tag="H" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/i" android:text="I" android:tag="I" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/j" android:text="J" android:tag="J" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/k" android:text="K" android:tag="K" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/l" android:text="L" android:tag="L" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/m" android:text="M" android:tag="M" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/n" android:text="N" android:tag="N" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/o" android:text="O" android:tag="O" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/p" android:text="P" android:tag="P" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/q" android:text="Q" android:tag="Q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/r" android:text="R" android:tag="R" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/s" android:text="S" android:tag="S" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/t" android:text="T" android:tag="T" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/u" android:text="U" android:tag="U" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/v" android:text="V" android:tag="V" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/w" android:text="W" android:tag="W" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/x" android:text="X" android:tag="X" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/y" android:text="Y" android:tag="Y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+		<TextView android:id="@+id/z" android:text="Z" android:tag="Z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/alphabet_text_size" android:clickable="true" android:onClick="alphabetClick" />
+
+	</LinearLayout>
+</ScrollView>

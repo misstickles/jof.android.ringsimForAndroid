@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RingsimActivity by Jo 2!</string>
+    <string name="app_name">Ringsim</string>
+    <string name="bellIconText">Bell</string>
+    <string name="no_method_results">No Results Found</string>
+    <string name="search_method_label">Search Method</string>
+    <string name="search_method_button_text">Search</string>
+    <string name="string_alt_favourite_icon">Is a favourite</string>
+    <string name="pref_highlight_bell_1">highlight_bell_1</string>
+	<string name="pref_show_bell_numbers">show_bell_numbers</string>
+	<string name="pref_show_as_single_line">show_as_single_line</string>
+	<string name="setting_title_text_size">15sp</string>
+	<string name="alphabet_text_size">12sp</string>
+</resources>

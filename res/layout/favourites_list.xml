@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/favourites_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="My Favourites"
+        android:textSize="15sp"
+        />
+    
+    <ListView
+        android:id="@+id/favourites_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="0.5"
+        android:fastScrollEnabled="true"        
+        />
+    
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:text="@string/no_method_results"
+        />
+    
+</LinearLayout>
